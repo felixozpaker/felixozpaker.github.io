@@ -1,0 +1,59 @@
+html, body {
+  background-color: #222121;
+
+  }
+
+  #iFrameID {
+    top: 25px;
+    bottom: auto;
+    right: auto;
+    left: 450px;
+    position:absolute;
+    
+  }
+  h1 {
+    top: 35px;
+    left: 30px;
+    position:absolute;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 2vw;
+    color: white;
+  }
+  
+  #nextButton {
+    top: 130px;
+    left: 175px; 
+    position:absolute;
+  }
+  
+
+
+  #backButton {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-left: 0px;
+    background: rgb(187, 185, 185);
+    border-radius:10px;
+    width: 3.5em;
+    height: 1.4em;
+  }
+
+
+
+ 
+
+
+
+
+
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }

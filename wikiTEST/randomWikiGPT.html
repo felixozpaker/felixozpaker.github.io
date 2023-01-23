@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random Wikipedia Page</title>
+</head>
+<body>
+  <h1>Random Wikipedia Page</h1>
+  <p>Click the button below to be taken to a random Wikipedia page.</p>
+  <button onclick="getRandomPage()">Take me to a random page!</button>
+
+  <iframe id="wikiFrame" src="about:blank" style="width:100%; height:800px;"></iframe>
+
+  <script>
+    function getRandomPage() {
+      // Get the total number of Wikipedia pages
+      var numPages = 500000; // This is just an example value; you may need to update this
+
+      // Generate a random number between 1 and the total number of Wikipedia pages
+      var randomPageNumber = Math.floor(Math.random() * numPages) + 1;
+
+      // Use the random number to construct the URL of a random Wikipedia page
+      var randomPageUrl = "https://en.wikipedia.org/?curid=" + randomPageNumber;
+
+      // Update the src attribute of the iframe to display the random page
+      document.getElementById("wikiFrame").src = randomPageUrl;
+    }
+  </script>
+</body>
+</html>

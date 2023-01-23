@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Felix Ozpaker">
+    <meta name="description" content=" Felix Ozpaker -Grade Calculator">
+    <TITLE>Felix Ozpaker - Grade Calculator</TITLE>
+    <!--<link rel="icon" href="html5.png" type="image/x-icon"> -->
+    <link rel="icon" type="image/x-icon" href="icon.png">
+
+    <link rel="stylesheet" href="gradeCalcCSS.css" type="text/css">
+    <script src="gradeCalcJS.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=DM+Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Long+Cang&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+
+
+    <h1>
+        Grade Calculator
+    </h1>
+
+
+    <div id="labelWrap">
+        <p class='labels'>Earned (pts)</p>
+
+        <p class='labels'>Total (pts)</p>
+
+        <p class='labels'>Weight (%)</p>
+
+    </div>
+
+
+    <p style="text-align: center;">
+        <input type="text" id="earned1" >
+
+        <input type="text" id="total1">
+        :
+        <input type="text" id="weight1"placeholder="90">
+    </p>
+
+    <p style="text-align: center;">
+        <input type="text" id="earned2">
+
+        <input type="text" id="total2">
+        :
+        <input type="text" id="weight2"placeholder="10">
+    </p>
+
+    <p class="center">New assignment ↓ </p>
+    <p class="center">
+        <input type="text" id="earned3">
+
+        <input type="text" id="total3">
+        :
+        <input type="text" id="weight3" placeholder="90">
+    </p>
+
+    <div class="center">
+
+    <button onClick="calculate()" id="button"> CALCULATE </button>
+    <!-- <button onClick="mcpsDefault()" > 90%/10% </button> -->
+
+</div>
+
+    <p id="grade"> 
+        <span id="result"></span>
+        
+    </p>
+    
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+</html> 

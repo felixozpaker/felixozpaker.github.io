@@ -1,0 +1,91 @@
+html {
+    background-color: #222121;
+    /*background-color: #16161a;*/
+}
+
+
+@font-face {
+  font-family: PixelFont;
+  src: url(FFFFORWA.TTF);
+}
+h1 {
+    font-size: 45px;
+    font-family: PixelFont;
+    text-align: center;
+    color: #fffffe;
+
+}
+
+p{
+    color: #fffffe;
+    font-family: "Carrois Gothic SC", "DM Sans", Montserrat, arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#labelWrap {
+    justify-content: space-between;
+    max-width: 28em;
+    display:flex;
+    margin: 0 auto;
+
+}
+.labels {
+  text-decoration: underline;
+    margin: 0;
+}
+
+.center{
+  text-align: center;
+  left: 50%;
+}
+
+#button {
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  font-family: "Carrois Gothic SC", "DM Sans", Montserrat, arial, sans-serif;
+  font-weight: bolder;
+  
+}
+
+#grade{
+    font-size: 150px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#result{
+    font-size: 150px;
+    font-weight: bold;
+    text-align: center;
+}
+
+input {
+  height:25px;
+  width: 125px;
+  font-size:20px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  
+
+  background-color: #222121;
+  color: white;
+  border:white;
+  border-style: solid;
+  border-width: 2px;
+  border-radius:10px;
+
+  
+}
+
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }

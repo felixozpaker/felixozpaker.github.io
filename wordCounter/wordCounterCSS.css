@@ -1,0 +1,57 @@
+html {
+    background-color: #ffffff;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,900;1,900&display=swap');
+
+textarea {
+    background-color: #ffffff;
+}
+
+h1 {
+    color: black;
+    font-family: Poppins, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: black;
+}
+
+#textbox {
+    font-size: 16px;
+    height: 48em;
+    position:absolute;
+    left:25%;
+    width: 50%;
+    color: black;
+    border: black;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+
+
+
+.toggleDark {
+    float: right;
+    right: 15px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.center {
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
