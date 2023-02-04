@@ -1,35 +1,49 @@
-html {
-    background-color: #ffffff;
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,900;1,900&display=swap');
+html {
+    /*background-color: black;*/
+}
 
 textarea {
-    background-color: #ffffff;
+    /*background-color: #141414;*/
 }
 
 h1 {
-    color: black;
-    font-family: Poppins, sans-serif;
-    font-weight: 900;
+    text-align: center;
+    /*color: white;*/
+    font-family: 'Lexend', sans-serif;
     text-transform: uppercase;
+    font-size: 3em;
+    margin: 10px;
+    margin-top: 20px;
 }
 
 h2 {
-    color: black;
+    text-align: center;
+    /*color: white;*/
+    font-family: 'Lexend', sans-serif;
+}
+
+.center {
+    margin:0 auto;
+
+
 }
 
 #textbox {
     font-size: 16px;
     height: 48em;
-    position:absolute;
-    left:25%;
-    width: 50%;
-    color: black;
-    border: black;
-    border-style: solid;
+    width: 50em;
+    margin: 20px;
+
+    /*color: white;*/
     border-radius: 10px;
+    font-family: 'Lexend', sans-serif;
 }
 
 

@@ -5,27 +5,18 @@
     <meta name="author" content="Felix Ozpaker">
     <meta name="description" content=" Word Counter">
     <TITLE>Felix Ozpaker - Word Counter</TITLE>
-    <!--<link rel="icon" href="html5.png" type="image/x-icon"> -->
     <link rel="stylesheet" href="styles.css" type="text/css">
     <script src="script.js"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    rel="stylesheet">
+    <link rel="stylesheet">
 
 </head>
 
 <body>
-    
-
-
-        
-
-
-
-<h1 class="center">
+<h1>
     Word Counter
 </h1>
 
-<h2 class="center"> 
+<h2> 
     Words: 
     <span id="wordNum"></span>
 
@@ -35,8 +26,9 @@
     <span id="charNum"></span>
 </h2>
 
-
-<textarea type="text" placeholder="Enter Text Here:" id="textbox"  size="110" oninput="updateChar();updateWords()" ></textarea>
+<div class="center">
+    <textarea type="text" placeholder="Enter Text Here:" id="textbox"  size="110" oninput="updateChar();updateWords()" ></textarea>
+</div>
 
 
 
