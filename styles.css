@@ -1,74 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Sofia+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 * {
+    padding: 0;
     margin: 0;
-    padding:0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+h1 {
 
-
-.nav {
-    width: 100%;
     
-    top: 75px;
-    height: 25px;
-    position: absolute;
-    display: flex;
-    justify-content: space-evenly;
 }
 
-.navButton {
-    font-family: Poppins, sans-serif;
-    font-weight: 800;
-    cursor: pointer;
-    font-size: 1.2em;
+.top {
+    font-weight: 550;
+    margin-top: 8.5%;
+    margin-left: 5%;
+    letter-spacing: -10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12em;
 }
 
-.navButton:hover {
-    color: #8694b3;
+.bottom {
+    font-weight: 900;
+    letter-spacing: -15px;
+    margin:0;
+    margin-left: 5%;
+    line-height: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12em;
 }
 
-
-
-#logo {
-    width: 10em;
-    height: 10em;
-    display: block;
-    margin:auto;
+#projects-header {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 6em;
+    margin-left: 0;
 }
+
+.projects {
+    margin-top: 15em;
+    background: rgb(75, 127, 156);
+    
+}
+
 
 
 
 
 .projects-container{
     display: flex;
-    width: 100%;
+    margin: 0;
     
-    justify-content: space-evenly;
-    margin-top: 10px;
-
 }
 
 .project {
-    border-radius: 5px;
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 35px;
+    padding: 1em;
+    font-size: 2em;
     text-align: center;
-    width: 40em;
-    height: 40em;
-    font-family: Poppins, sans-serif;
-    cursor: pointer;   
- 
+    width: 12em;
+    margin: .25em;
+    font-family: 'POPPINS', sans-serif;
+    letter-spacing: -3px;
+    font-weight: 600;
+    cursor:pointer;
 }
 
-.projectImages:hover {
-
+a:hover {
+    font-weight: 900;
+    letter-spacing: normal;
 }
 
-.projectImages {
-    width: 40em;
-    height: 40em;
-    
-}
 
 a{
     text-decoration: none;
     color: black;
   }
+
+
+
