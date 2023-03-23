@@ -2,16 +2,52 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,400;1,700;1,900&display=swap');
+
+
+
 
 * {
     padding: 0;
     margin: 0;
 }
 
-h1 {
 
+
+
+
+
+
+
+
+.nav-container {
+    background-color: rgb(233, 233, 233);
+    width: 100%;
     
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 10px;
+    font-family: Lato, sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
 }
+
+#projects {
+    order:1;
+}
+
+
+#contact {
+    order: 2;
+}
+
+
+
+
 
 .top {
     font-weight: 550;
@@ -25,15 +61,46 @@ h1 {
 .bottom {
     font-weight: 900;
     letter-spacing: -15px;
-    margin:0;
+    transform: translateY(-100px);
+    
     margin-left: 5%;
-    line-height: 0px;
+    line-height: 100%;
     font-family: 'Poppins', sans-serif;
     font-size: 12em;
+    
+}
+
+.links {
+    display: flex;
+
+    transform: translate(900px, -270px);
+    margin-left: 7%;
+    margin-right: 55%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.links-project {
+    background-color: black;
+    text-transform: uppercase;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 3em;
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.links-project:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+
 }
 
 #projects-header {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Arimo', sans-serif;
+    letter-spacing: -6px;
     color: rgb(0, 0, 0);
     font-size: 6em;
     margin-left: 0;
@@ -41,7 +108,8 @@ h1 {
 
 .projects {
     margin-top: 15em;
-    background: rgb(65, 65, 65);
+    padding-left: 2%;
+    background: rgb(233, 233, 233);
     
 }
 
@@ -57,25 +125,22 @@ h1 {
 
 .project {
     border: 3px solid rgb(0, 0, 0);
-    border-radius: 35px;
     padding: 1em;
     font-size: 2em;
     text-align: center;
     width: 12em;
     margin: .25em;
-    font-family: 'POPPINS', sans-serif;
-    letter-spacing: -3px;
+    font-family: 'Arimo', sans-serif;
     font-weight: 600;
     cursor:pointer;
 }
 
-a:hover {
-    font-weight: 900;
-    letter-spacing: normal;
-}
 
 
-a{
+
+
+
+a {
     text-decoration: none;
     color: black;
   }

@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
     <title>Felix's Morning</title>
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Vue JS -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js'></script>
+    <!-- jQuery -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
   </head>
   <body>
-    
+    <audio id="audio" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio>
+
 
     <div class="heading">
-
-    <h1>Felix's Morning...</h1>
+        <img src="images/logo.png" id="logo">
+    <h1>My Morning...</h1>
 
     <p id="header-description">
         Hello! I'm Felix! The following is a chronological showcase of my typical morning routine:
@@ -30,9 +38,29 @@
 
     <h2>BED</h2>
     <div class="img-container">
-        <img src="/images/1.jpg" style="width: 15%; height: 15%;" onclick="popup()">
-        <img src="/images/2.jpg" class="img" onclick="popup()">
-        <img src="/images/3.jpg" class="img" onclick="popup()">
+        <div class="img-with-text-below" style="width: 15%; height: 15%;">
+            <button type="button" onclick="playAudio('knock.mp3')">
+                <img src="images/1.jpg" class="img" > 
+            </button>
+            
+            <p>Even though it's a school day and I want to stay asleep, since it's 6:30 AM, I have to wake up.</p>
+        </div>
+
+
+        <div class="img-with-text-below">
+            <button type="button" onclick="playAudio('knock.mp3')">
+                <img src="images/2.jpg" class="img" > 
+            </button> 
+            <p>Right after waking up, my bed is all messy.</p>
+        </div>
+
+
+        <div class="img-with-text-below">
+            <button type="button" onclick="playAudio('knock.mp3')">
+                <img src="images/3.jpg" class="img" > 
+            </button>
+            <p>To start my day, I like to make my bed first.</p>
+        </div>
     </div>
 
    
@@ -45,9 +73,29 @@
     <br>
     <h2>BATHROOM</h2>
     <div class="img-container">
-        <img src="/images/4.jpg" class="img" onclick="popup()">
-        <img src="/images/5.jpg" class="img" onclick="popup()">
-        <img src="/images/6.jpg" style="width:15%; height: 15%;" onclick="popup()">
+
+
+        <div class="img-with-text-below">
+            <button type="button" onclick="playAudio('knock.mp3')">
+                <img src="images/4.jpg" class="img" > 
+            </button>
+            <p>After making my bed, I immediately head to the shower. I have to shower in order to wake myself up and make me feel ready for the day.</p>
+        </div>
+        
+        <div class="img-with-text-below">
+            <button type="button" onclick="playAudio('knock.mp3')">
+                <img src="images/5.jpg" class="img" > 
+            </button>
+            <p>After showering I brush my teeth. I brush for about 2 minutes every morning.</p>
+        </div>
+
+        <div class="img-with-text-below" style="width: 15%; height: 15%;">
+            <button type="button" onclick="playAudio('knock.mp3')">
+                <img src="images/6.jpg" class="img" > 
+            </button>
+            <p>Once I've brushed my teeth, I pick out what clothes I am going to wear for the day.</p>
+        </div>
+
     </div>
 
     <br>
@@ -59,9 +107,28 @@
 
     <h2>BACKPACK/CLOTHES</h2>
     <div class="img-container">
-        <img src="/images/7.jpg" class="img" onclick="popup()">
-        <img src="/images/8.jpg" class="img" onclick="popup()">
-        <img src="/images/9.jpg" class="img" onclick="popup()">
+        <div class="img-with-text-below">
+            <button type="button" onclick="playAudio('knock.mp3')">
+                <img src="images/7.jpg" class="img" > 
+            </button> 
+            <p>Finally, I must get my backpack ready. I have to put water, my lunchbox, and sometimes a breakfast into it before I leave.</p>
+        </div>
+
+
+        <div class="img-with-text-below">
+            <button type="button" onclick="playAudio('knock.mp3')">
+                <img src="images/8.jpg" class="img" > 
+            </button>
+            <p>It was cold, so I put on a jacket.</p>
+        </div>
+
+
+        <div class="img-with-text-below">
+            <button type="button" onclick="playAudio('knock.mp3')">
+                <img src="images/9.jpg" class="img" > 
+            </button>
+            <p>Which shoes am I going to wear?</p>
+        </div>
     </div>
 
     <br>
@@ -73,12 +140,49 @@
 
     <h2>LEAVING</h2>
     <div class="img-container">
-        <img src="/images/10.jpg" class="img" onclick="popup()">
-        <img src="/images/11.jpg" class="img" onclick="popup()">
-        <img src="/images/12.jpg" class="img" onclick="popup()">
+        <div class="img-with-text-below">
+            <button type="button" onclick="playAudio('knock.mp3')">
+                <img src="images/10.jpg" class="img" > 
+            </button>
+            <p>I chose my ugg slippers because it was cold outside and they keep my feet warm.</p>
+        </div>
+
+
+        <div class="img-with-text-below">
+            <button type="button" onclick="playAudio('knock.mp3')">
+                <img src="images/11.jpg" class="img" > 
+            </button>
+            <p>Leaving for school!</p>
+        </div>
+
+
+        <div class="img-with-text-below">
+            <button type="button" onclick="playAudio('knock.mp3')">
+                <img src="images/12.jpg" class="img" > 
+            </button> 
+            <p>At last, I get in my car, ready to drive to school. The day has started.</p>
+        </div>
     </div>
         
 </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer>
+    <p id="name">
+        Felix Ozpaker
+    </p>
+
+    <p id="date">
+        © 2023
+    </p>
+
+
+</footer>
+
 	<script src="script.js"></script>
   </body>
 </html>
