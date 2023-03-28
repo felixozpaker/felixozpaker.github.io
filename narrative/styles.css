@@ -5,11 +5,12 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 
 .heading {
-    background: rgb(155, 156, 156);
+    background: rgb(81, 81, 81);
     border-radius: 0px 0px 50px 50px;
     width: 100%;
     
@@ -28,7 +29,7 @@ h1 {
     display: inline;
     position: absolute;
     transform: translate(0px,20px);
-    
+    color: white;
     padding-left: 2%;
     width: 100%;
 }
@@ -36,6 +37,32 @@ h1 {
 button {
     border:none;
 }
+
+.navigation {
+    display: flex;
+    justify-content:  space-around;
+    color: rgb(124, 165, 255);
+    margin-top: 40px;
+    margin-left: 35%;
+    margin-bottom: -20px;
+    width: 30%;
+    font-family: 'Poppins', sans-serif;
+}
+
+a:link { text-decoration: underline; }
+
+a {
+    color: rgb(124, 165, 255);
+    text-decoration: underline;
+}
+
+a:visited { text-decoration: underline; }
+
+
+a:hover { text-decoration: underline; }
+
+
+a:active { text-decoration: underline; }
 
 h2 {
     text-align: center;
@@ -51,7 +78,7 @@ h2 {
     transform: translate(160px,-25px);
     font-size: 1.2em;
     font-family: 'Poppins', sans-serif;
-
+    color: white;
 }
 
 .img-with-text-below img{
