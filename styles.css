@@ -25,6 +25,7 @@ a {
   display: inline-flex;
   align-items: center;
   text-transform: capitalize;
+  padding:15px;
  /*
   border: #DBAD4A;
   border-style: solid;

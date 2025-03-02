@@ -11,6 +11,8 @@ html {
 
 textarea {
     /*background-color: #141414;*/
+    
+    padding: 10px; 
 }
 
 h1 {
@@ -37,8 +39,8 @@ h2 {
 
 #textbox {
     font-size: 16px;
-    height: 48em;
-    width: 50em;
+    height: 35em;
+    width: 60em;
     margin: 20px;
     text-indent: 10px;
     /*color: white;*/
