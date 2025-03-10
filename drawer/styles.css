@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+h1 {
+    font-size: 4em;
+    padding-top: 15px;
+    text-align: center;
+    margin-bottom: 1%;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#canvas-container {
+    width: 720px;
+    height: 720px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    border: 10px black solid;
+    border-radius: 10px;
+}
+
+.canvas{
+    margin: 0;
+    padding: 0;
+    border: 1px black solid;
+    width: 70px;
+    height: 70px;
+    vertical-align: top;
+    float: left;
+}
+
+#label{
+    margin-right: 4px;
+}
+
+#clear {
+    text-align: center;
+    width: 60px;
+    height: 20px;
+    float: right;
+}
+
+#button-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-left: 25%;
+    
+}

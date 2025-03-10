@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Felix Ozpaker">
+    <meta name="description" content="Drawer">
+    <TITLE>Drawer</TITLE>
+    <!--<link rel="icon" href="html5.png" type="image/x-icon"> -->
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+
+<h1>Paint</h1>
+
+<div id="button-container" >
+<button onclick="clearCanvas()" id="clear">Clear</button>
+<div>
+    <label id="label">Grid?</label>
+    <input type='checkbox' value="Grid" id="check" onclick="gridOnOff()">
+</div>
+
+</div>
+
+
+<div id="canvas-container">
+    
+    <canvas onmouseover="draw(0)" class="canvas" id="canvas_0" onmousedown="initialDraw(0)"></canvas>
+    <canvas onmouseover="draw(1)" class="canvas" id="canvas_1" onmousedown="initialDraw(1)"></canvas>
+    <canvas onmouseover="draw(2)" class="canvas" id="canvas_2" onmousedown="initialDraw(2)"></canvas>
+    <canvas onmouseover="draw(3)" class="canvas" id="canvas_3" onmousedown="initialDraw(3)"></canvas>
+    <canvas onmouseover="draw(4)" class="canvas" id="canvas_4" onmousedown="initialDraw(4)"></canvas>
+    <canvas onmouseover="draw(5)" class="canvas" id="canvas_5" onmousedown="initialDraw(5)"></canvas>
+    <canvas onmouseover="draw(6)" class="canvas" id="canvas_6" onmousedown="initialDraw(6)"></canvas>
+    <canvas onmouseover="draw(7)" class="canvas" id="canvas_7" onmousedown="initialDraw(7)"></canvas>
+    <canvas onmouseover="draw(8)" class="canvas" id="canvas_8" onmousedown="initialDraw(8)"></canvas>
+    <canvas onmouseover="draw(9)" class="canvas" id="canvas_9" onmousedown="initialDraw(9)"></canvas>
+    <canvas onmouseover="draw(10)" class="canvas" id="canvas_10" onmousedown="initialDraw(10)"></canvas>
+    <canvas onmouseover="draw(11)" class="canvas" id="canvas_11" onmousedown="initialDraw(11)"></canvas>
+    <canvas onmouseover="draw(12)" class="canvas" id="canvas_12" onmousedown="initialDraw(12)"></canvas>
+    <canvas onmouseover="draw(13)" class="canvas" id="canvas_13" onmousedown="initialDraw(13)"></canvas>
+    <canvas onmouseover="draw(14)" class="canvas" id="canvas_14" onmousedown="initialDraw(14)"></canvas>
+    <canvas onmouseover="draw(15)" class="canvas" id="canvas_15" onmousedown="initialDraw(15)"></canvas>
+    <canvas onmouseover="draw(16)" class="canvas" id="canvas_16" onmousedown="initialDraw(16)"></canvas>
+    <canvas onmouseover="draw(17)" class="canvas" id="canvas_17" onmousedown="initialDraw(17)"></canvas>
+    <canvas onmouseover="draw(18)" class="canvas" id="canvas_18" onmousedown="initialDraw(18)"></canvas>
+    <canvas onmouseover="draw(19)" class="canvas" id="canvas_19" onmousedown="initialDraw(19)"></canvas>
+    <canvas onmouseover="draw(20)" class="canvas" id="canvas_20" onmousedown="initialDraw(20)"></canvas>
+    <canvas onmouseover="draw(21)" class="canvas" id="canvas_21" onmousedown="initialDraw(21)"></canvas>
+    <canvas onmouseover="draw(22)" class="canvas" id="canvas_22" onmousedown="initialDraw(22)"></canvas>
+    <canvas onmouseover="draw(23)" class="canvas" id="canvas_23" onmousedown="initialDraw(23)"></canvas>
+    <canvas onmouseover="draw(24)" class="canvas" id="canvas_24" onmousedown="initialDraw(24)"></canvas>
+    <canvas onmouseover="draw(25)" class="canvas" id="canvas_25" onmousedown="initialDraw(25)"></canvas>
+    <canvas onmouseover="draw(26)" class="canvas" id="canvas_26" onmousedown="initialDraw(26)"></canvas>
+    <canvas onmouseover="draw(27)" class="canvas" id="canvas_27" onmousedown="initialDraw(27)"></canvas>
+    <canvas onmouseover="draw(28)" class="canvas" id="canvas_28" onmousedown="initialDraw(28)"></canvas>
+    <canvas onmouseover="draw(29)" class="canvas" id="canvas_29" onmousedown="initialDraw(29)"></canvas>
+    <canvas onmouseover="draw(30)" class="canvas" id="canvas_30" onmousedown="initialDraw(30)"></canvas>
+    <canvas onmouseover="draw(31)" class="canvas" id="canvas_31" onmousedown="initialDraw(31)"></canvas>
+    <canvas onmouseover="draw(32)" class="canvas" id="canvas_32" onmousedown="initialDraw(32)"></canvas>
+    <canvas onmouseover="draw(33)" class="canvas" id="canvas_33" onmousedown="initialDraw(33)"></canvas>
+    <canvas onmouseover="draw(34)" class="canvas" id="canvas_34" onmousedown="initialDraw(34)"></canvas>
+    <canvas onmouseover="draw(35)" class="canvas" id="canvas_35" onmousedown="initialDraw(35)"></canvas>
+    <canvas onmouseover="draw(36)" class="canvas" id="canvas_36" onmousedown="initialDraw(36)"></canvas>
+    <canvas onmouseover="draw(37)" class="canvas" id="canvas_37" onmousedown="initialDraw(37)"></canvas>
+    <canvas onmouseover="draw(38)" class="canvas" id="canvas_38" onmousedown="initialDraw(38)"></canvas>
+    <canvas onmouseover="draw(39)" class="canvas" id="canvas_39" onmousedown="initialDraw(39)"></canvas>
+    <canvas onmouseover="draw(40)" class="canvas" id="canvas_40" onmousedown="initialDraw(40)"></canvas>
+    <canvas onmouseover="draw(41)" class="canvas" id="canvas_41" onmousedown="initialDraw(41)"></canvas>
+    <canvas onmouseover="draw(42)" class="canvas" id="canvas_42" onmousedown="initialDraw(42)"></canvas>
+    <canvas onmouseover="draw(43)" class="canvas" id="canvas_43" onmousedown="initialDraw(43)"></canvas>
+    <canvas onmouseover="draw(44)" class="canvas" id="canvas_44" onmousedown="initialDraw(44)"></canvas>
+    <canvas onmouseover="draw(45)" class="canvas" id="canvas_45" onmousedown="initialDraw(45)"></canvas>
+    <canvas onmouseover="draw(46)" class="canvas" id="canvas_46" onmousedown="initialDraw(46)"></canvas>
+    <canvas onmouseover="draw(47)" class="canvas" id="canvas_47" onmousedown="initialDraw(47)"></canvas>
+    <canvas onmouseover="draw(48)" class="canvas" id="canvas_48" onmousedown="initialDraw(48)"></canvas>
+    <canvas onmouseover="draw(49)" class="canvas" id="canvas_49" onmousedown="initialDraw(49)"></canvas>
+    <canvas onmouseover="draw(50)" class="canvas" id="canvas_50" onmousedown="initialDraw(50)"></canvas>
+    <canvas onmouseover="draw(51)" class="canvas" id="canvas_51" onmousedown="initialDraw(51)"></canvas>
+    <canvas onmouseover="draw(52)" class="canvas" id="canvas_52" onmousedown="initialDraw(52)"></canvas>
+    <canvas onmouseover="draw(53)" class="canvas" id="canvas_53" onmousedown="initialDraw(53)"></canvas>
+    <canvas onmouseover="draw(54)" class="canvas" id="canvas_54" onmousedown="initialDraw(54)"></canvas>
+    <canvas onmouseover="draw(55)" class="canvas" id="canvas_55" onmousedown="initialDraw(55)"></canvas>
+    <canvas onmouseover="draw(56)" class="canvas" id="canvas_56" onmousedown="initialDraw(56)"></canvas>
+    <canvas onmouseover="draw(57)" class="canvas" id="canvas_57" onmousedown="initialDraw(57)"></canvas>
+    <canvas onmouseover="draw(58)" class="canvas" id="canvas_58" onmousedown="initialDraw(58)"></canvas>
+    <canvas onmouseover="draw(59)" class="canvas" id="canvas_59" onmousedown="initialDraw(59)"></canvas>
+    <canvas onmouseover="draw(60)" class="canvas" id="canvas_60" onmousedown="initialDraw(60)"></canvas>
+    <canvas onmouseover="draw(61)" class="canvas" id="canvas_61" onmousedown="initialDraw(61)"></canvas>
+    <canvas onmouseover="draw(62)" class="canvas" id="canvas_62" onmousedown="initialDraw(62)"></canvas>
+    <canvas onmouseover="draw(63)" class="canvas" id="canvas_63" onmousedown="initialDraw(63)"></canvas>
+    <canvas onmouseover="draw(64)" class="canvas" id="canvas_64" onmousedown="initialDraw(64)"></canvas>
+    <canvas onmouseover="draw(65)" class="canvas" id="canvas_65" onmousedown="initialDraw(65)"></canvas>
+    <canvas onmouseover="draw(66)" class="canvas" id="canvas_66" onmousedown="initialDraw(66)"></canvas>
+    <canvas onmouseover="draw(67)" class="canvas" id="canvas_67" onmousedown="initialDraw(67)"></canvas>
+    <canvas onmouseover="draw(68)" class="canvas" id="canvas_68" onmousedown="initialDraw(68)"></canvas>
+    <canvas onmouseover="draw(69)" class="canvas" id="canvas_69" onmousedown="initialDraw(69)"></canvas>
+    <canvas onmouseover="draw(70)" class="canvas" id="canvas_70" onmousedown="initialDraw(70)"></canvas>
+    <canvas onmouseover="draw(71)" class="canvas" id="canvas_71" onmousedown="initialDraw(71)"></canvas>
+    <canvas onmouseover="draw(72)" class="canvas" id="canvas_72" onmousedown="initialDraw(72)"></canvas>
+    <canvas onmouseover="draw(73)" class="canvas" id="canvas_73" onmousedown="initialDraw(73)"></canvas>
+    <canvas onmouseover="draw(74)" class="canvas" id="canvas_74" onmousedown="initialDraw(74)"></canvas>
+    <canvas onmouseover="draw(75)" class="canvas" id="canvas_75" onmousedown="initialDraw(75)"></canvas>
+    <canvas onmouseover="draw(76)" class="canvas" id="canvas_76" onmousedown="initialDraw(76)"></canvas>
+    <canvas onmouseover="draw(77)" class="canvas" id="canvas_77" onmousedown="initialDraw(77)"></canvas>
+    <canvas onmouseover="draw(78)" class="canvas" id="canvas_78" onmousedown="initialDraw(78)"></canvas>
+    <canvas onmouseover="draw(79)" class="canvas" id="canvas_79" onmousedown="initialDraw(79)"></canvas>
+    <canvas onmouseover="draw(80)" class="canvas" id="canvas_80" onmousedown="initialDraw(80)"></canvas>
+    <canvas onmouseover="draw(81)" class="canvas" id="canvas_81" onmousedown="initialDraw(81)"></canvas>
+    <canvas onmouseover="draw(82)" class="canvas" id="canvas_82" onmousedown="initialDraw(82)"></canvas>
+    <canvas onmouseover="draw(83)" class="canvas" id="canvas_83" onmousedown="initialDraw(83)"></canvas>
+    <canvas onmouseover="draw(84)" class="canvas" id="canvas_84" onmousedown="initialDraw(84)"></canvas>
+    <canvas onmouseover="draw(85)" class="canvas" id="canvas_85" onmousedown="initialDraw(85)"></canvas>
+    <canvas onmouseover="draw(86)" class="canvas" id="canvas_86" onmousedown="initialDraw(86)"></canvas>
+    <canvas onmouseover="draw(87)" class="canvas" id="canvas_87" onmousedown="initialDraw(87)"></canvas>
+    <canvas onmouseover="draw(88)" class="canvas" id="canvas_88" onmousedown="initialDraw(88)"></canvas>
+    <canvas onmouseover="draw(89)" class="canvas" id="canvas_89" onmousedown="initialDraw(89)"></canvas>
+    <canvas onmouseover="draw(90)" class="canvas" id="canvas_90" onmousedown="initialDraw(90)"></canvas>
+    <canvas onmouseover="draw(91)" class="canvas" id="canvas_91" onmousedown="initialDraw(91)"></canvas>
+    <canvas onmouseover="draw(92)" class="canvas" id="canvas_92" onmousedown="initialDraw(92)"></canvas>
+    <canvas onmouseover="draw(93)" class="canvas" id="canvas_93" onmousedown="initialDraw(93)"></canvas>
+    <canvas onmouseover="draw(94)" class="canvas" id="canvas_94" onmousedown="initialDraw(94)"></canvas>
+    <canvas onmouseover="draw(95)" class="canvas" id="canvas_95" onmousedown="initialDraw(95)"></canvas>
+    <canvas onmouseover="draw(96)" class="canvas" id="canvas_96" onmousedown="initialDraw(96)"></canvas>
+    <canvas onmouseover="draw(97)" class="canvas" id="canvas_97" onmousedown="initialDraw(97)"></canvas>
+    <canvas onmouseover="draw(98)" class="canvas" id="canvas_98" onmousedown="initialDraw(98)"></canvas>
+    <canvas onmouseover="draw(99)" class="canvas" id="canvas_99" onmousedown="initialDraw(99)"></canvas>
+
+</div>
+
+
+
+
+</body>
+</html>
